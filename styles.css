@@ -157,3 +157,14 @@ body {
     font-size: 14px;
     text-align: center;
   }
+
+/* New CSS for responsiveness */
+@media (max-width: 768px) {
+  .gallery {
+    column-count: 1; /* Set to a single column for mobile */
+  }
+
+  .item {
+    width: 100%; /* Make items take full width on mobile */
+  }
+}
