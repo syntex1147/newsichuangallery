@@ -1,0 +1,159 @@
+/* Basic styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Parallax background image */
+  .parallax {
+    background-image: url('imgs/oxtongue1.png'); /* Replace with your background image */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }
+  
+  /* Gallery styles */
+  .gallery {
+    padding: 50px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Masonry layout */
+  .masonry {
+    column-count: 3;
+    column-gap: 20px;
+  }
+  
+  .grid-item {
+    break-inside: avoid;
+    margin-bottom: 20px;
+  }
+  
+  .grid-item img {
+    width: 100%;
+    display: block;
+  }
+  /* Basic styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent background with some opacity */
+    color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    height: 55px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    margin: 0;
+    margin-top: 13px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin-top: 15px;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .masonry { /* Masonry container */
+    column-count: 4;
+    column-gap: 1em;
+  }
+  
+  .item { /* Masonry bricks or child elements */
+    background-color: #eee;
+    display: inline-block;
+    margin: 0 0 1em;
+    width: 100%;
+  }
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basic styling for the gallery */
+  .gallery {
+    column-count: 3; /* Change this value to adjust the number of columns */
+    column-gap: 15px;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .grid-sizer {
+    width: 33.333%; /* Set width according to the column count */
+  }
+  
+  .item {
+    display: inline-block;
+    margin-bottom: 15px;
+  }
+  
+  .item img {
+    width: 100%;
+    display: block;
+  }
+  .gallery-w {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  hr {
+    width: 85%; 
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 15px;
+  }
+
+  h1 {
+    margin: 20px;
+  }
+  .description {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 8px;
+    font-size: 14px;
+    text-align: center;
+  }
