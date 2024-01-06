@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#f4efe6">
+  <meta name="description" content="A photo gallery of dishes from New Sichuan.">
+  <title>New Sichuan — Gallery</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600&family=Noto+Serif+SC:wght@500&display=swap">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to gallery</a>
+
+  <header class="masthead" id="masthead">
+    <hr class="rule">
+    <h1 class="masthead__title">New Sichuan</h1>
+    <p class="masthead__sub">Seventy-four Dishes &middot; A Gallery</p>
+    <hr class="rule">
+    <nav class="toc" aria-label="Sections">
+      <ul>
+        <li><a href="#appetizers">Appetizers</a></li>
+        <li><a href="#steamed-foods">Steamed</a></li>
+        <li><a href="#cold-dishes">Cold</a></li>
+        <li><a href="#wok-stirfried">Wok</a></li>
+        <li><a href="#noodles-rice">Rice &amp; Noodles</a></li>
+        <li><a href="#sich-cuisine">Sichuan</a></li>
+        <li><a href="#sich-noodles">Sichuan Noodles</a></li>
+      </ul>
+    </nav>
+    <hr class="rule">
+  </header>
+
+  <nav class="utility-nav" id="utility-nav" aria-label="Sections (sticky)">
+    <div class="utility-nav__inner">
+      <a class="utility-nav__brand" href="#masthead">New Sichuan</a>
+      <ul class="utility-nav__list">
+        <li><a class="util-chip" href="#appetizers">Appetizers</a></li>
+        <li><a class="util-chip" href="#steamed-foods">Steamed</a></li>
+        <li><a class="util-chip" href="#cold-dishes">Cold</a></li>
+        <li><a class="util-chip" href="#wok-stirfried">Wok</a></li>
+        <li><a class="util-chip" href="#noodles-rice">Rice &amp; Noodles</a></li>
+        <li><a class="util-chip" href="#sich-cuisine">Sichuan</a></li>
+        <li><a class="util-chip" href="#sich-noodles">Sichuan Noodles</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main id="main">
+    <section class="section section--gallery-start" id="appetizers" data-cjk="前菜" data-roman="I" aria-labelledby="h-appetizers">
+      <header class="section__head">
+        <hr class="rule">
+        <div class="section__head-inner">
+          <span class="section__roman">I</span>
+          <span class="section__cjk" lang="zh-Hant" aria-hidden="true">前菜</span>
+          <h2 class="section__label" id="h-appetizers">
+            <span class="section__english">Appetizers</span>
+            <span class="section__count">&middot; 010</span>
+          </h2>
+        </div>
+        <hr class="rule">
+      </header>
+      <div class="grid">
+        <button class="tile tile--hero" type="button" data-caption="Sichuan Wontons" data-section="Appetizers">
+          <span class="tile__media"><img src="imgs/sichwontons.png" alt="Sichuan Wontons" width="1441" height="881" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Sichuan Wontons</span>
+        </button>
+        <button class="tile" type="button" data-caption="Egg Roll" data-section="Appetizers">
+          <span class="tile__media"><img src="imgs/eggroll.png" alt="Egg Roll" width="640" height="361" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Egg Roll</span>
+        </button>
+        <button class="tile" type="button" data-caption="Spring Roll" data-section="Appetizers">
+          <span class="tile__media"><img src="imgs/springroll.png" alt="Spring Roll" width="1555" height="872" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Spring Roll</span>
+        </button>
+        <button class="tile" type="button" data-caption="Pork Dumplings" data-section="Appetizers">
+          <span class="tile__media"><img src="imgs/pdumplings.png" alt="Pork Dumplings" width="1565" height="883" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Pork Dumplings</span>
+        </button>
+        <button class="tile" type="button" data-caption="Vegetable Dumplings" data-section="Appetizers">
+          <span class="tile__media"><img src="imgs/vegdumplings.png" alt="Vegetable Dumplings" width="1508" height="878" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Vegetable Dumplings</span>
+        </button>
+        <button class="tile" type="button" data-caption="Crab Rangoons" data-section="Appetizers">
+          <span class="tile__media"><img src="imgs/crabrangoons.png" alt="Crab Rangoons" width="1565" height="883" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Crab Rangoons</span>
+        </button>
+        <button class="tile" type="button" data-caption="Steamed Edamame" data-section="Appetizers">
+          <span class="tile__media"><img src="imgs/edamame.png" alt="Steamed Edamame" width="1560" height="885" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Steamed Edamame</span>
+        </button>
+        <button class="tile" type="button" data-caption="Fried Chicken Wings" data-section="Appetizers">
+          <span class="tile__media"><img src="imgs/frckwings.png" alt="Fried Chicken Wings" width="1561" height="882" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Fried Chicken Wings</span>
+        </button>
+        <button class="tile" type="button" data-caption="Chives with Pork &amp; Shrimp Dumplings" data-section="Appetizers">
+          <span class="tile__media"><img src="imgs/chivesdumplings.png" alt="Chives with Pork and Shrimp Dumplings" width="1551" height="882" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Chives w. Pork &amp; Shrimp Dumplings</span>
+        </button>
+        <button class="tile" type="button" data-caption="Fried Dough Sticks" data-section="Appetizers">
+          <span class="tile__media"><img src="imgs/frdoughstick.png" alt="Fried Dough Sticks" width="1551" height="882" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Fried Dough Sticks</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="section" id="steamed-foods" data-cjk="點心" data-roman="II" aria-labelledby="h-steamed">
+      <header class="section__head">
+        <hr class="rule">
+        <div class="section__head-inner">
+          <span class="section__roman">II</span>
+          <span class="section__cjk" lang="zh-Hant" aria-hidden="true">點心</span>
+          <h2 class="section__label" id="h-steamed">
+            <span class="section__english">Steamed</span>
+            <span class="section__count">&middot; 003</span>
+          </h2>
+        </div>
+        <hr class="rule">
+      </header>
+      <div class="grid">
+        <button class="tile tile--hero" type="button" data-caption="Pork Soup Dumplings" data-section="Steamed">
+          <span class="tile__media"><img src="imgs/psd.png" alt="Pork Soup Dumplings" width="1536" height="882" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Pork Soup Dumplings</span>
+        </button>
+        <button class="tile" type="button" data-caption="Crab &amp; Pork Soup Dumplings" data-section="Steamed">
+          <span class="tile__media"><img src="imgs/crpsd.png" alt="Crab and Pork Soup Dumplings" width="1564" height="880" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Crab &amp; Pork Soup Dumplings</span>
+        </button>
+        <button class="tile" type="button" data-caption="Steamed Crystal Shrimp Dumplings" data-section="Steamed">
+          <span class="tile__media"><img src="imgs/shrdump.png" alt="Steamed Crystal Shrimp Dumplings" width="1560" height="881" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Steamed Crystal Shrimp Dumplings</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="section" id="cold-dishes" data-cjk="涼菜" data-roman="III" aria-labelledby="h-cold">
+      <header class="section__head">
+        <hr class="rule">
+        <div class="section__head-inner">
+          <span class="section__roman">III</span>
+          <span class="section__cjk" lang="zh-Hant" aria-hidden="true">涼菜</span>
+          <h2 class="section__label" id="h-cold">
+            <span class="section__english">Cold</span>
+            <span class="section__count">&middot; 005</span>
+          </h2>
+        </div>
+        <hr class="rule">
+      </header>
+      <div class="grid">
+        <button class="tile tile--hero" type="button" data-caption="Steamed Chicken with House Ginger Garlic Sauce" data-section="Cold">
+          <span class="tile__media"><img src="imgs/stmck.png" alt="Steamed Chicken with House Ginger Garlic Sauce" width="659" height="714" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Steamed Chicken w. Ginger Garlic Sauce</span>
+        </button>
+        <button class="tile" type="button" data-caption="Ox Tongue &amp; Tripe with Chili Sauce" data-section="Cold">
+          <span class="tile__media"><img src="imgs/oxtongue.jpg" alt="Ox Tongue and Tripe with Chili Sauce" width="1000" height="750" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Ox Tongue &amp; Tripe w. Chili Sauce</span>
+        </button>
+        <button class="tile" type="button" data-caption="Cucumber with Garlic Sauce" data-section="Cold">
+          <span class="tile__media"><img src="imgs/cucmber.png" alt="Cucumber with Garlic Sauce" width="1399" height="883" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Cucumber w. Garlic Sauce</span>
+        </button>
+        <button class="tile" type="button" data-caption="Beef Tripe with Hot Wild Pepper Sauce" data-section="Cold">
+          <span class="tile__media"><img src="imgs/beeftripe.png" alt="Beef Tripe with Hot Wild Pepper Sauce" width="1278" height="784" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Beef Tripe w. Hot Wild Pepper Sauce</span>
+        </button>
+        <button class="tile" type="button" data-caption="Sichuan Cold Noodles" data-section="Cold">
+          <span class="tile__media"><img src="imgs/sichcold.jpg" alt="Sichuan Cold Noodles" width="750" height="1000" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Sichuan Cold Noodles</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="section" id="wok-stirfried" data-cjk="小炒" data-roman="IV" aria-labelledby="h-wok">
+      <header class="section__head">
+        <hr class="rule">
+        <div class="section__head-inner">
+          <span class="section__roman">IV</span>
+          <span class="section__cjk" lang="zh-Hant" aria-hidden="true">小炒</span>
+          <h2 class="section__label" id="h-wok">
+            <span class="section__english">Wok</span>
+            <span class="section__count">&middot; 009</span>
+          </h2>
+        </div>
+        <hr class="rule">
+      </header>
+      <div class="grid">
+        <button class="tile tile--hero" type="button" data-caption="General Tso&rsquo;s Chicken" data-section="Wok">
+          <span class="tile__media"><img src="imgs/generaltsock.png" alt="General Tso&rsquo;s Chicken" width="750" height="1000" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">General Tso&rsquo;s Chicken</span>
+        </button>
+        <button class="tile" type="button" data-caption="Sesame Chicken" data-section="Wok">
+          <span class="tile__media"><img src="imgs/s.png" alt="Sesame Chicken" width="1078" height="587" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Sesame Chicken</span>
+        </button>
+        <button class="tile" type="button" data-caption="Chicken with String Beans" data-section="Wok">
+          <span class="tile__media"><img src="imgs/ckwstring.png" alt="Chicken with String Beans" width="1555" height="880" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Chicken w. String Beans</span>
+        </button>
+        <button class="tile" type="button" data-caption="Orange Chicken" data-section="Wok">
+          <span class="tile__media"><img src="imgs/orgck.png" alt="Orange Chicken" width="1000" height="903" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Orange Chicken</span>
+        </button>
+        <button class="tile" type="button" data-caption="Chicken with Broccoli" data-section="Wok">
+          <span class="tile__media"><img src="imgs/ckwbroc.png" alt="Chicken with Broccoli" width="1555" height="881" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Chicken w. Broccoli</span>
+        </button>
+        <button class="tile" type="button" data-caption="Shanghai Baby Bok Choy" data-section="Wok">
+          <span class="tile__media"><img src="imgs/bokchoy.png" alt="Shanghai Baby Bok Choy" width="1563" height="879" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Shanghai Baby Bok Choy</span>
+        </button>
+        <button class="tile" type="button" data-caption="General Tso&rsquo;s Tofu" data-section="Wok">
+          <span class="tile__media"><img src="imgs/gentsotofu.png" alt="General Tso&rsquo;s Tofu" width="972" height="1000" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">General Tso&rsquo;s Tofu</span>
+        </button>
+        <button class="tile" type="button" data-caption="Sesame Tofu" data-section="Wok">
+          <span class="tile__media"><img src="imgs/sestofu.png" alt="Sesame Tofu" width="1540" height="887" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Sesame Tofu</span>
+        </button>
+        <button class="tile" type="button" data-caption="Tofu with Broccoli" data-section="Wok">
+          <span class="tile__media"><img src="imgs/tofuwbroc.png" alt="Tofu with Broccoli" width="1560" height="883" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Tofu w. Broccoli</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="section" id="noodles-rice" data-cjk="飯麵" data-roman="V" aria-labelledby="h-rice">
+      <header class="section__head">
+        <hr class="rule">
+        <div class="section__head-inner">
+          <span class="section__roman">V</span>
+          <span class="section__cjk" lang="zh-Hant" aria-hidden="true">飯麵</span>
+          <h2 class="section__label" id="h-rice">
+            <span class="section__english">Rice &amp; Noodles</span>
+            <span class="section__count">&middot; 005</span>
+          </h2>
+        </div>
+        <hr class="rule">
+      </header>
+      <div class="grid">
+        <button class="tile tile--hero" type="button" data-caption="Chicken / Shrimp / Vegetable Fried Rice" data-section="Rice &amp; Noodles">
+          <span class="tile__media"><img src="imgs/friedrice.png" alt="Fried Rice" width="1565" height="878" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Chicken / Shrimp / Vegetable Fried Rice</span>
+        </button>
+        <button class="tile" type="button" data-caption="Chicken / Shrimp / Vegetable Lo Mein" data-section="Rice &amp; Noodles">
+          <span class="tile__media"><img src="imgs/lomein.png" alt="Lo Mein" width="1468" height="839" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Chicken / Shrimp / Vegetable Lo Mein</span>
+        </button>
+        <button class="tile" type="button" data-caption="Chicken / Shrimp / Vegetable Mei Fun" data-section="Rice &amp; Noodles">
+          <span class="tile__media"><img src="imgs/meifun.png" alt="Mei Fun" width="680" height="484" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Chicken / Shrimp / Vegetable Mei Fun</span>
+        </button>
+        <button class="tile" type="button" data-caption="Chicken / Shrimp / Vegetable Chow Fun" data-section="Rice &amp; Noodles">
+          <span class="tile__media"><img src="imgs/chowfun.png" alt="Chow Fun" width="1241" height="789" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Chicken / Shrimp / Vegetable Chow Fun</span>
+        </button>
+        <button class="tile" type="button" data-caption="Singapore Mei Fun" data-section="Rice &amp; Noodles">
+          <span class="tile__media"><img src="imgs/singapore.png" alt="Singapore Mei Fun" width="1286" height="805" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Singapore Mei Fun</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="section" id="sich-cuisine" data-cjk="川菜" data-roman="VI" aria-labelledby="h-sich">
+      <header class="section__head">
+        <hr class="rule">
+        <div class="section__head-inner">
+          <span class="section__roman">VI</span>
+          <span class="section__cjk" lang="zh-Hant" aria-hidden="true">川菜</span>
+          <h2 class="section__label" id="h-sich">
+            <span class="section__english">Sichuan</span>
+            <span class="section__count">&middot; 014</span>
+          </h2>
+        </div>
+        <hr class="rule">
+      </header>
+      <div class="grid">
+        <button class="tile tile--hero" type="button" data-caption="Spicy Double Cooked Pork" data-section="Sichuan">
+          <span class="tile__media"><img src="imgs/dpork.png" alt="Spicy Double Cooked Pork" width="1548" height="878" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Spicy Double Cooked Pork</span>
+        </button>
+        <button class="tile" type="button" data-caption="Dry Pot Chicken" data-section="Sichuan">
+          <span class="tile__media"><img src="imgs/dpck1.jpeg" alt="Dry Pot Chicken" width="341" height="180" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Dry Pot Chicken</span>
+        </button>
+        <button class="tile" type="button" data-caption="Kung Pao Chicken" data-section="Sichuan">
+          <span class="tile__media"><img src="imgs/kpck.png" alt="Kung Pao Chicken" width="1063" height="685" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Kung Pao Chicken</span>
+        </button>
+        <button class="tile" type="button" data-caption="Dry Saut&eacute;ed String Bean" data-section="Sichuan">
+          <span class="tile__media"><img src="imgs/strbeans.png" alt="Dry Saut&eacute;ed String Bean" width="1559" height="882" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Dry Saut&eacute;ed String Bean</span>
+        </button>
+        <button class="tile" type="button" data-caption="Diced Chicken with Spicy Sauce" data-section="Sichuan">
+          <span class="tile__media"><img src="imgs/dicedck.webp" alt="Diced Chicken with Spicy Sauce" width="1920" height="1079" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Diced Chicken w. Spicy Sauce</span>
+        </button>
+        <button class="tile" type="button" data-caption="Dry Pot Intestine" data-section="Sichuan">
+          <span class="tile__media"><img src="imgs/dpintestine.jpg" alt="Dry Pot Intestine" width="363" height="169" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Dry Pot Intestine</span>
+        </button>
+        <button class="tile" type="button" data-caption="Kung Pao Chicken &amp; Shrimp" data-section="Sichuan">
+          <span class="tile__media"><img src="imgs/kpckshr.jpg" alt="Kung Pao Chicken and Shrimp" width="553" height="453" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Kung Pao Chicken &amp; Shrimp</span>
+        </button>
+        <button class="tile" type="button" data-caption="Fish in Sichuan Style" data-section="Sichuan">
+          <span class="tile__media"><img src="imgs/fishsich.jpg" alt="Fish in Sichuan Style" width="598" height="424" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Fish in Sichuan Style</span>
+        </button>
+        <button class="tile" type="button" data-caption="Fish Filet with Hot Pepper" data-section="Sichuan">
+          <span class="tile__media"><img src="imgs/fishfilet.webp" alt="Fish Filet with Hot Pepper" width="1920" height="1080" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Fish Filet w. Hot Pepper</span>
+        </button>
+        <button class="tile" type="button" data-caption="Intestine with Chili Pepper" data-section="Sichuan">
+          <span class="tile__media"><img src="imgs/inteschili.webp" alt="Intestine with Chili Pepper" width="1920" height="1079" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Intestine w. Chili Pepper</span>
+        </button>
+        <button class="tile" type="button" data-caption="Crispy Chicken with Garlic Sauce" data-section="Sichuan">
+          <span class="tile__media"><img src="imgs/crispyck.png" alt="Crispy Chicken with Garlic Sauce" width="680" height="484" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Crispy Chicken w. Garlic Sauce</span>
+        </button>
+        <button class="tile" type="button" data-caption="Ma Po Tofu" data-section="Sichuan">
+          <span class="tile__media"><img src="imgs/mapo.png" alt="Ma Po Tofu" width="1154" height="763" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Ma Po Tofu</span>
+        </button>
+        <button class="tile" type="button" data-caption="Pea Shoots" data-section="Sichuan">
+          <span class="tile__media"><img src="imgs/peashoots.webp" alt="Pea Shoots" width="1920" height="1080" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Pea Shoots</span>
+        </button>
+        <button class="tile" type="button" data-caption="Tri-Pepper Chicken" data-section="Sichuan">
+          <span class="tile__media"><img src="imgs/tripe.jpg" alt="Tri-Pepper Chicken" width="349" height="264" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Tri-Pepper Chicken</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="section" id="sich-noodles" data-cjk="川麵" data-roman="VII" aria-labelledby="h-snood">
+      <header class="section__head">
+        <hr class="rule">
+        <div class="section__head-inner">
+          <span class="section__roman">VII</span>
+          <span class="section__cjk" lang="zh-Hant" aria-hidden="true">川麵</span>
+          <h2 class="section__label" id="h-snood">
+            <span class="section__english">Sichuan Noodles</span>
+            <span class="section__count">&middot; 017</span>
+          </h2>
+        </div>
+        <hr class="rule">
+      </header>
+      <div class="grid">
+        <button class="tile tile--hero" type="button" data-caption="Dan Dan Noodles" data-section="Sichuan Noodles">
+          <span class="tile__media"><img src="imgs/dandan.jpg" alt="Dan Dan Noodles" width="680" height="510" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Dan Dan Noodles</span>
+        </button>
+        <button class="tile" type="button" data-caption="Chongqing Beef Noodles" data-section="Sichuan Noodles">
+          <span class="tile__media"><img src="imgs/cqbeef1.jpg" alt="Chongqing Beef Noodles" width="382" height="314" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Chongqing Beef Noodles</span>
+        </button>
+        <button class="tile" type="button" data-caption="Chongqing Noodles" data-section="Sichuan Noodles">
+          <span class="tile__media"><img src="imgs/cqnoodles.png" alt="Chongqing Noodles" width="1290" height="1003" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Chongqing Noodles</span>
+        </button>
+        <button class="tile" type="button" data-caption="Spicy Beef Noodle Soup" data-section="Sichuan Noodles">
+          <span class="tile__media"><img src="imgs/spicybeef.webp" alt="Spicy Beef Noodle Soup" width="1920" height="1079" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Spicy Beef Noodle Soup</span>
+        </button>
+        <button class="tile" type="button" data-caption="Intestine Noodles" data-section="Sichuan Noodles">
+          <span class="tile__media"><img src="imgs/intes.png" alt="Intestine Noodles" width="1345" height="1008" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Intestine Noodles</span>
+        </button>
+        <button class="tile" type="button" data-caption="Noodles with Meat &amp; Bean Sauce" data-section="Sichuan Noodles">
+          <span class="tile__media"><img src="imgs/meatw.png" alt="Noodles with Meat and Bean Sauce" width="1348" height="1010" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Noodles w. Meat &amp; Bean Sauce</span>
+        </button>
+        <button class="tile" type="button" data-caption="Sichuan Spicy Jelly Noodles" data-section="Sichuan Noodles">
+          <span class="tile__media"><img src="imgs/sichspicy.webp" alt="Sichuan Spicy Jelly Noodles" width="1920" height="1080" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Sichuan Spicy Jelly Noodles</span>
+        </button>
+        <button class="tile" type="button" data-caption="Beef Jelly Noodles" data-section="Sichuan Noodles">
+          <span class="tile__media"><img src="imgs/beefjelly.webp" alt="Beef Jelly Noodles" width="1920" height="1080" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Beef Jelly Noodles</span>
+        </button>
+        <button class="tile" type="button" data-caption="Chongqing Jelly Noodles" data-section="Sichuan Noodles">
+          <span class="tile__media"><img src="imgs/cqjelly.png" alt="Chongqing Jelly Noodles" width="1346" height="1011" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Chongqing Jelly Noodles</span>
+        </button>
+        <button class="tile" type="button" data-caption="Minced Pork &amp; Chickpea Jelly Noodles" data-section="Sichuan Noodles">
+          <span class="tile__media"><img src="imgs/mincepkjelly.png" alt="Minced Pork and Chickpea Jelly Noodles" width="1341" height="997" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Minced Pork &amp; Chickpea Jelly Noodles</span>
+        </button>
+        <button class="tile" type="button" data-caption="Intestine Jelly Noodles" data-section="Sichuan Noodles">
+          <span class="tile__media"><img src="imgs/intestine.png" alt="Intestine Jelly Noodles" width="1343" height="1008" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Intestine Jelly Noodles</span>
+        </button>
+        <button class="tile" type="button" data-caption="Minced Pork &amp; Chickpea Noodles" data-section="Sichuan Noodles">
+          <span class="tile__media"><img src="imgs/mincepk.jpg" alt="Minced Pork and Chickpea Noodles" width="339" height="314" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Minced Pork &amp; Chickpea Noodles</span>
+        </button>
+        <button class="tile" type="button" data-caption="Sichuan Pork Noodles" data-section="Sichuan Noodles">
+          <span class="tile__media"><img src="imgs/sichpork.jpg" alt="Sichuan Pork Noodles" width="518" height="374" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Sichuan Pork Noodles</span>
+        </button>
+        <button class="tile" type="button" data-caption="Tomato Egg Spicy Noodles" data-section="Sichuan Noodles">
+          <span class="tile__media"><img src="imgs/tmtegg.png" alt="Tomato Egg Spicy Noodles" width="1237" height="985" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Tomato Egg Spicy Noodles</span>
+        </button>
+        <button class="tile" type="button" data-caption="Chicken Noodle Soup" data-section="Sichuan Noodles">
+          <span class="tile__media"><img src="imgs/cknoodle.png" alt="Chicken Noodle Soup" width="1053" height="819" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Chicken Noodle Soup</span>
+        </button>
+        <button class="tile" type="button" data-caption="Vegetable Noodle Soup" data-section="Sichuan Noodles">
+          <span class="tile__media"><img src="imgs/vegnoodle.png" alt="Vegetable Noodle Soup" width="1188" height="999" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Vegetable Noodle Soup</span>
+        </button>
+        <button class="tile" type="button" data-caption="Shrimp Noodle Soup" data-section="Sichuan Noodles">
+          <span class="tile__media"><img src="imgs/schrnoodle.png" alt="Shrimp Noodle Soup" width="931" height="908" loading="lazy" decoding="async"></span>
+          <span class="tile__cap">Shrimp Noodle Soup</span>
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <hr class="rule">
+    <div class="site-footer__inner">
+      <h2 class="site-footer__wordmark">New Sichuan</h2>
+      <p class="site-footer__sub">Gallery &middot; 2026</p>
+    </div>
+  </footer>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Image viewer">
+    <button class="lightbox__close" type="button" aria-label="Close">
+      <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+    </button>
+    <button class="lightbox__nav lightbox__nav--prev" type="button" aria-label="Previous">
+      <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M15 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+    <button class="lightbox__nav lightbox__nav--next" type="button" aria-label="Next">
+      <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+    <figure class="lightbox__figure">
+      <img class="lightbox__img" src="" alt="">
+      <figcaption class="lightbox__cap">
+        <span class="lightbox__num"></span>
+        <span class="lightbox__title"></span>
+        <span class="lightbox__section"></span>
+      </figcaption>
+    </figure>
+  </dialog>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
